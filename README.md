@@ -1,3 +1,16 @@
+## nlp-demo App
+
+A web based book upload and view application
+
+## How to Install
+
+1. Clone  the repo
+2. Create a database and import the database file included in the repo `nlp-demo.sql`
+3. Edit the `DB_DATABASE`, `DB_USERNAME` and `DB_PASSWORD` in the `.env` file.
+4. Open your command prompt and go to the directory of the project
+5. Run the server with `php artisan serve` from the command line
+6. The app should be visible on the browser via the url `http://127.0.0.1:8000/`
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">

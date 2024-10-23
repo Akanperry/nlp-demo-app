@@ -1,0 +1,61 @@
+/*
+
+* Override Pages default styles or create your own styles here
+
+*/
+.jumbotron h1.large-demo-text{
+	font-size: 150px;
+}
+
+.icon-text-search{
+	font-size: 42px;
+	width: 150%;
+}
+
+/* Custom CSS */
+
+.logo-1-pic, .logo-2-pic, .logo-3-pic{
+    width: 200px;
+    max-height: 200px;
+}
+
+.logo-1-upload, .logo-2-upload, .logo-3-upload {
+    display: none;
+}
+
+.circle {
+    border-radius: 100% !important;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.p-image {
+  color: #666666;
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-logo-1-button, .upload-logo-2-button, .upload-logo-3-button {
+  font-size: 1.2em;
+}
+
+.upload-logo-1-button:hover,
+.upload-logo-2-button:hover,
+.upload-logo-3-button:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+}
+
+.file-upload{
+  display: none;
+}
+
+#bring-to-front {
+  z-index: 9999999999999;
+}
